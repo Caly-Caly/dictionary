@@ -1,7 +1,18 @@
-.Dictionary {
+.searchBar {
   text-align: center;
 }
 
 .Results {
   margin-top: 15px;
+  text-align: center;
+}
+
+.Results h1{
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.searchButton {
+  margin: 0 5px;
+  width: 75px;
 }
