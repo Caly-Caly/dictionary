@@ -1,0 +1,6 @@
+li{
+    list-style: none;
+    text-transform: capitalize;
+    display: inline;
+    color: #c23805;
+}
