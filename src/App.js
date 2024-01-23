@@ -1,7 +1,7 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookAtlas } from "@fortawesome/free-solid-svg-icons";
+import { faBookBookmark } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
       <div className="container">
         <header className="App-header">
           <FontAwesomeIcon
-            icon={faBookAtlas}
+            icon={faBookBookmark}
             size="2xl"
-            style={{ color: "#124559" }}
+            style={{ color: "#008080" }}
           />
         </header>
         <br />

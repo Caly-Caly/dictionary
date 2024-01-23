@@ -28,4 +28,9 @@ section {
   text-transform: capitalize;
 }
 
+.Background {
+  background-color:  #dddbcb;
+  padding: 20px;
+  border-radius: 8px;
+}
 

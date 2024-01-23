@@ -1,13 +1,17 @@
 body {
-  background-color: #c4cbca;
+  
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/778/original/scattered-hand-drawn-letters.jpg?1705984702");
 }
 .App{
-  margin: 30px 0;
+
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 .App-header{
   font-size: 40px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .App-footer {
