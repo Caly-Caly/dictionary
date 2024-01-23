@@ -1,6 +1,12 @@
-li{
-    list-style: none;
-    text-transform: capitalize;
-    display: inline;
-    color: #c23805;
+li {
+  color: #8b3103;
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+  text-transform: capitalize;
+}
+
+.Synonyms {
+  margin: 15px 0;
+  padding: 0;
 }
