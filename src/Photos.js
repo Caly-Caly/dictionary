@@ -14,12 +14,13 @@ export default function Photos(props) {
                   href={photo.src.original}
                   rel="noreferrer"
                   target="_blank"
-                ></a>
+                >
                 <img
                   alt={photo.alt}
                   src={photo.src.tiny}
                   className="img-fluid"
                 />
+                </a>
               </div>
             );
         })}
