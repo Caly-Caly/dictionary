@@ -18,8 +18,20 @@ function App() {
         <main>
           <Dictionary defaultKeyword="twilight" />
         </main>
+
         <small>
-          <footer className="App-footer">Coded by Calysta Aponte</footer>
+          <footer className="App-footer">
+            <span>
+              <a
+                href="https://github.com/Caly-Caly/dictionary"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Open-source code{" "}
+              </a>
+              by <strong>Calysta Aponte</strong>
+            </span>
+          </footer>
         </small>
       </div>
     </div>

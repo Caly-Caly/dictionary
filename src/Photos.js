@@ -9,14 +9,17 @@ export default function Photos(props) {
         {props.photos.map(function (photo, index) {
           console.log(photo);
             return (
-              <div className="col-4" key={index}>
-                <a href={photo.src.original} target="_blank" rel="noreferrer">
-                  <img
-                    alt={photo.alt}
-                    src={photo.src.tiny}
-                    className="img-fluid"
-                  />
-                </a>
+              <div className="col-12" key={index}>
+                <a
+                  href={photo.src.original}
+                  rel="noreferrer"
+                  target="_blank"
+                ></a>
+                <img
+                  alt={photo.alt}
+                  src={photo.src.tiny}
+                  className="img-fluid"
+                />
               </div>
             );
         })}
